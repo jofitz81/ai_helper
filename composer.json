@@ -1,0 +1,17 @@
+{
+    "name": "jofitz/ai_helper",
+    "description": "Provides wrappers for common AI functionality",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/jofitz81/ai_helper",
+    "authors": [
+        {
+            "name": "Jo Fitzgerald (jofitz)",
+            "homepage": "https://www.drupal.org/u/jofitz"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10 || ^11",
+        "drupal/ai": "^1"
+    }
+}

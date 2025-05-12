@@ -1,0 +1,7 @@
+name: 'AI helper'
+type: module
+description: 'Provides wrappers for common AI functionality'
+package: AI
+core_version_requirement: ^10 || ^11
+dependencies:
+  - ai:ai
