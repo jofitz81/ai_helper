@@ -1,0 +1,4 @@
+services:
+  ai_helper.chat:
+    class: Drupal\ai_helper\Chat
+    arguments: ['@ai.provider']
