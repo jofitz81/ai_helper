@@ -5,18 +5,19 @@ declare(strict_types=1);
 namespace Drupal\ai_helper;
 
 interface AiInterface {
+
   /**
    * Return response from an AI request.
    *
-   * @param array $message_texts
+   * @param array|string $message_texts
    *   The messages.
    * @param array $tags
    *   Extra tags to set.
    *
-   * @return string
+   * @return mixed
    *   The response.
    */
-  public function makeAiRequest(array $message_texts, array $tags = []): string;
+  public function makeAiRequest(array|string $message_texts, array $tags = []): mixed;
 
   /**
    * Get the operation type of the AI interaction.

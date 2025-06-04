@@ -2,3 +2,6 @@ services:
   ai_helper.chat:
     class: Drupal\ai_helper\Chat
     arguments: ['@ai.provider']
+  ai_helper.text_to_image:
+    class: Drupal\ai_helper\TextToImage
+    arguments: ['@ai.provider']

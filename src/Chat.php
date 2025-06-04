@@ -15,7 +15,7 @@ class Chat extends AiBase {
   /**
    * @inheritDoc
    */
-  public function makeAiRequest(array $message_texts, array $tags = []): string {
+  public function makeAiRequest(array|string $message_texts, array $tags = []): string {
     $messages = [];
     foreach ($message_texts as $message_text) {
       $messages[] = new ChatMessage('user', $message_text);
